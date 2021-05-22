@@ -140,3 +140,21 @@ footer ul li:hover {
 .quick-list h3 {
   font-size: 16px;
 }
+@media screen {
+}
+@media screen and (max-width: 600px) {
+  .res {
+    display: flex;
+    flex-direction: column;
+  }
+  .news3-cont {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
